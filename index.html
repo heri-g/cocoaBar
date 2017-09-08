@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cocoa bar</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+
+    <!--**************** Beginning of navbar ****************-->
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!--<p class="pull-left">CocoaBar</p>-->
+                <!--<p class="pull-right">Home | Menu | Location</p>-->
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="img/cocoabar/logo.png" class="logo">
+                    </a>
+            </div>
+        </nav>
+
+    <!--**************** End of navbar ****************-->
+
+    <!--**************** Start of Header ****************-->
+
+    <div class="absolute">
+        <div class="container-fluid downArrow">
+            <div class="row">
+                <div class="col-md-12 center-block">
+                    <button>
+                        <img src="img/cocoabar/arrow.svg" alt="Down Arrow" >
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <header class="siteHeader">
+
+        </header>
+
+    <!--**************** END OF HEADER ****************-->
+
+        <hr class="hrStyle">
+
+    <!--****************
+    ***************************************
+            Start of main content;
+            Menu stuff...
+    ***************************************
+                         ****************-->
+
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="menuText">MENU</h1>
+            </div>
+            <div class="row text-center">
+                <h4 class="happyHour">
+                    Happy Hour: Sunday-Thursday Noon-7pm
+                </h4>
+            </div>
+            <div class="row text-center menuContent">
+                <div class="col-md-6">
+                    <p>
+                        <span class="oblique">Wine</span> $8-11<br>&nbsp;
+                        Selected wines, updated regularly <br>
+
+                        House wine $6 <br><br>
+
+                        <span class="oblique">Cocktails</span> $12<br>
+                        French Hot Chocolate <br>
+
+                        Chocolatini <br>
+
+                        Espresso Martini <br>
+
+                        Spicy Chocolate Martini <br>
+
+                        Sake <br><br>
+
+                        <span class="oblique">Beer</span> $5-9
+
+                    <hr class="miniHr" style="width: 50%">
+
+                    </p>
+                    <p>
+                        <span class="oblique">Coffee</span><br>
+                        Selection of brewed coffee, espresso beverages, and our signature Chocolatté,
+                        house specialty mocha made with solid pieces of our artisinal chocolate melted
+                        down in steamed milk with espresso with a choice of dark, white, cinnamon, spicy,
+                        or mint chocolate
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        <p><span class="oblique">Hot Chocolate</span><br>
+                        Winner of CBS’ Top 5 Hot Chocolate Drinks in NYC 2015. Our house favorites!
+                        Solid pieces of our artisanal chocolate melted down in steamed milk.
+                        Choice of dark, white, mint, cinnamon, spicy, ginger or mint chocolate <br>
+                        "Funky monkey" hot chocolate made with banana or coconut syrup
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        </p>
+                        <p>
+                        <span class="oblique">Teas</span><br>
+                        Selection of green, black, decaffeinated and herbal teas<br>
+                        </p>
+
+                    </p>
+
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <span class="oblique">Sandwiches</span> $10<br>
+                        Served on ciabatta bread<br>
+
+                        Persian chicken salad<br>
+
+                        Tuna fish salad<br>
+
+                        Ham & Cheese<br>
+
+                        Honey Glazed Turkey<br>
+
+                        Caprese<br>
+
+                        Goat cheese
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        </p>
+                        <p>
+                        <span class="oblique">Salad</span> $8<br>
+                        Persian chicken salad<br>
+
+                        Tuna fish salad<br>
+
+                        Arugula, tomato, mozzarella<br>
+
+                        Arugula, goat cheese, cranberry, walnut
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        </p>
+                        <p>
+                        <span class="oblique">Dessert</span><br>
+                        Chocoholics platter $22<br>
+
+                        Cocoa Bar platter $16<br>
+
+                        Assorted Cakes $7<br>
+
+                        Bonbons $1.80<br>
+
+                        Brownie a la mode $6
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        </p>
+                        <p>
+                        <span class="oblique">Savory Crepes $8-9</span><br>
+                        Nova Salmon<br>
+                        Ham & cheese<br>
+                        Vegeterian
+
+                    <hr class="miniHr" style="width: 50%">
+
+                        </p>
+                        <p>
+                        <span class="oblique">Sweet Crepes $7</span><br>
+                        Nutella & banana<br>
+
+                        Apple cinnamon
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <!--****************
+    ***************************************
+            End of main content;
+            Menu stuff...
+    ***************************************
+                        ****************-->
+
+
+        <hr class="hrStyle">
+
+    <!--**************** start of map ****************-->
+
+        <div class="container-fluid" id="map"></div>
+
+    <!--**************** end of map ****************-->
+
+        <hr class="hrStyle">
+
+
+
+<script type = "text/javascript" src ="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery.stellar/jquery.stellar.js" type = "text/javascript"></script>
+<script src="scripts/scripts.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVZvUbyiHo78to7j9VauGFiOAOr4dRTWU&callback=initMap" async defer></script>
+</body>
+</html>

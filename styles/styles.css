@@ -1,0 +1,115 @@
+*, body {
+    font-family: 'Faustina', serif;
+
+}
+h1 {
+    font-size: 5em;
+}
+p {
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+/************ Nav Bar *************/
+nav {
+    border: none;
+}
+.navbar {
+    border: none;
+}
+.navbar-default {
+    background-color: rgb(238, 238, 238);
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+    margin-bottom: 0;
+    height: 95px;
+    -webkit-box-shadow: 0 6px 50px -10px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0 6px 50px -10px rgba(0,0,0,0.49);
+    box-shadow: 0 6px 50px -10px rgba(0,0,0,0.49);
+}
+.navbar-brand {
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+img.logo  {
+    height: 80px !important;
+}
+/************ Header *************/
+header.siteHeader  {
+    margin-top: 3.6em;
+    background: linear-gradient(rgba(0, 0, 0, .7), transparent), url("../img/cocoabar/cocoa5.jpg")  fixed  no-repeat center  #000000;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.downArrow {
+ position: absolute;
+}
+button img {
+    background: none;
+    height: 8em;
+    top: 50vh;
+    left: 50vw;
+}
+
+/************ Main Menu Content *************/
+.menuContent {
+    height: 25em;
+    background-attachment: inherit;
+}
+.miniHr {
+    border-color: #b6b5b5;
+}
+h1.menuText {
+    letter-spacing: 2px;
+    margin-bottom: 0 !important;
+}
+.happyHour {
+    padding: 2em 0 2em 0;
+    font-size: 1.7em;
+}
+span.oblique {
+    font-style: oblique;
+}
+/********** Menu **********/
+
+/********** Map Styles**********/
+#map {
+    height: 65%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/********** Misc. Styles**********/
+.hrStyle {
+    margin-top: 12em;
+    margin-bottom: 4em;
+    width: 70%;
+    border-color: #B71C1C;
+}
+.menuHr {
+    width: 20%;
+}
+
+.smoothDownArrow {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 23em;
+    margin: 0 auto !important;
+}
+button.downButton {
+    height: 70px;
+    width: 70px;
+    margin-top: 10em;
+    border-radius: 100% !important;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+    opacity: .45;
+    z-index: 50;
+}
+button.downButton:hover {
+    opacity: 1;
+}
