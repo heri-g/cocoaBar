@@ -43,14 +43,18 @@ header.siteHeader  {
 }
 .downArrow {
  position: absolute;
+    width: 100vw;
+    top: 75%;
 }
 button img {
-    background: none;
     height: 8em;
-    top: 50vh;
-    left: 50vw;
-}
 
+}
+.arrowButton {
+    background-color: transparent;
+    border: none;
+    outline:none;
+}
 /************ Main Menu Content *************/
 .menuContent {
     height: 25em;
@@ -90,26 +94,4 @@ html, body {
 }
 .menuHr {
     width: 20%;
-}
-
-.smoothDownArrow {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 23em;
-    margin: 0 auto !important;
-}
-button.downButton {
-    height: 70px;
-    width: 70px;
-    margin-top: 10em;
-    border-radius: 100% !important;
-    border: 2px solid #fff;
-    color: #fff;
-    background: none;
-    opacity: .45;
-    z-index: 50;
-}
-button.downButton:hover {
-    opacity: 1;
 }
