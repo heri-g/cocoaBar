@@ -17,7 +17,7 @@ nav {
     border: none;
 }
 .navbar-default {
-    background-color: rgb(238, 238, 238);
+    background-color: #eeeeee;
 }
 nav.navbar.navbar-default.navbar-fixed-top {
     margin-bottom: 0;
@@ -35,7 +35,7 @@ img.logo  {
 }
 /************ Header *************/
 header.siteHeader  {
-    margin-top: 3.6em;
+    /*margin-top: 3.6em;*/
     background: linear-gradient(rgba(0, 0, 0, .7), transparent), url("../img/cocoabar/cocoa5.jpg")  fixed  no-repeat center  #000000;
     background-size: cover;
     height: 100vh;
@@ -80,6 +80,9 @@ span.oblique {
 #map {
     height: 65%;
 }
+.outerMap {
+    height: 65%;
+}
 html, body {
     height: 100%;
     margin: 0;
@@ -94,4 +97,55 @@ html, body {
 }
 .menuHr {
     width: 20%;
+}
+
+@media (max-width: 991px) {
+    .outerMap {
+        margin-top: 130em;
+    }
+}
+@media (max-width: 688px) {
+    .outerMap {
+        margin-top: 133em;
+    }
+}
+@media (max-width: 673px) {
+    .outerMap {
+        margin-top: 135em;
+    }
+}
+@media (max-width: 577px) {
+    .outerMap {
+        margin-top: 135em;
+    }
+}
+@media (max-width: 570px) {
+    .outerMap {
+        margin-top: 140em;
+    }
+}
+@media (max-width: 508px) {
+    .outerMap {
+        margin-top: 143em;
+    }
+}
+@media (max-width: 492px) {
+    .outerMap {
+        margin-top: 145em;
+    }
+}
+@media (max-width: 451px) {
+    .outerMap {
+        margin-top: 149em;
+    }
+}
+@media (max-width: 440px) {
+    .outerMap {
+        margin-top: 153em;
+    }
+}
+@media (max-width: 416px) {
+    .outerMap {
+        margin-top: 160em;
+    }
 }
