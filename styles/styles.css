@@ -17,7 +17,7 @@ nav {
     border: none;
 }
 .navbar-default {
-    background-color: rgb(238, 238, 238);
+    background-color: #eeeeee;
 }
 nav.navbar.navbar-default.navbar-fixed-top {
     margin-bottom: 0;
