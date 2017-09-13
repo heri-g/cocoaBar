@@ -136,6 +136,12 @@ html, body {
 #mobileFooter {
     display: none;
 }
+/********** Icon Styles**********/
+.phone {
+    background: url("../img/cocoabar/phone-call.svg") no-repeat center !important;
+    height: 5em;
+    position: absolute;
+}
 /********** Misc. Styles**********/
 .hrStyle {
     margin-top: 12em;
