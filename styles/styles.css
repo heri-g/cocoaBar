@@ -17,7 +17,7 @@ nav {
     border: none;
 }
 .navbar-default {
-    background-color: rgb(238, 238, 238);
+    background-color: #eeeeee;
 }
 nav.navbar.navbar-default.navbar-fixed-top {
     margin-bottom: 0;
@@ -35,7 +35,7 @@ img.logo  {
 }
 /************ Header *************/
 header.siteHeader  {
-    margin-top: 3.6em;
+    /*margin-top: 3.6em;*/
     background: linear-gradient(rgba(0, 0, 0, .7), transparent), url("../img/cocoabar/cocoa5.jpg")  fixed  no-repeat center  #000000;
     background-size: cover;
     height: 100vh;
@@ -74,16 +74,73 @@ h1.menuText {
 span.oblique {
     font-style: oblique;
 }
-/********** Menu **********/
+/********** Menu  **********/
 
 /********** Map Styles**********/
 #map {
-    height: 65%;
+    height: 85%;
+}
+.outerMap {
+    height: 85%;
+    margin-bottom: 25em;
+}
+.cocoaMap {
+    margin-top: 3em;
 }
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+/********** Social Styles**********/
+.socialRow {
+    padding: 2em 0 6em 0;
+}
+.instagram  {
+    position: inherit;
+    background: url("../img/cocoabar/instagram2.png") no-repeat center;
+    height: 5em;
+    width: 20%;
+    float: right;
+    opacity: 0.5;
+    transition: opacity .4s ease-in-out;
+
+}
+.twitter  {
+    position: inherit;
+    background: url("../img/cocoabar/twitter.svg") no-repeat center;
+    height: 5em;
+    width: 20%;
+    float: left;
+    opacity: 0.5;
+    transition: opacity .4s ease-in-out;
+}
+.instagram:hover {
+    opacity: 1;
+}
+.twitter:hover {
+    opacity: 1;
+}
+/********** Footer Styles**********/
+.footerInfo {
+    background-color: #eeeeee;
+    padding: 4em 0 6em 0;
+    margin-top: 4em;
+}
+.row.text-center.footerRow {
+    width: 100vw;
+}
+#desktopFooter {
+    display: inherit;
+}
+#mobileFooter {
+    display: none;
+}
+/********** Icon Styles**********/
+.phone {
+    background: url("../img/cocoabar/phone-call.svg") no-repeat center !important;
+    height: 5em;
+    position: absolute;
 }
 /********** Misc. Styles**********/
 .hrStyle {
@@ -94,4 +151,80 @@ html, body {
 }
 .menuHr {
     width: 20%;
+}
+.xtraPadding {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+/********** Media Queries **********/
+@media (max-width: 991px) {
+    /* Map */
+    .outerMap {
+        margin-top: 130em;
+    }
+    /* Social */
+    .instagram {
+        width: 50%;
+    }
+    .twitter {
+        width: 50%;
+    }
+    /* Footer */
+    .footerInfo {
+        padding-left: 2em;
+    }
+    .row.footerRow {
+        width: 100%;
+    }
+    #desktopFooter {
+        display: none;
+    }
+    #mobileFooter {
+        display: inherit;
+    }
+}
+@media (max-width: 688px) {
+    .outerMap {
+        margin-top: 133em;
+    }
+}
+@media (max-width: 673px) {
+    .outerMap {
+        margin-top: 135em;
+    }
+}
+@media (max-width: 577px) {
+    .outerMap {
+        margin-top: 135em;
+    }
+}
+@media (max-width: 570px) {
+    .outerMap {
+        margin-top: 140em;
+    }
+}
+@media (max-width: 508px) {
+    .outerMap {
+        margin-top: 143em;
+    }
+}
+@media (max-width: 492px) {
+    .outerMap {
+        margin-top: 145em;
+    }
+}
+@media (max-width: 451px) {
+    .outerMap {
+        margin-top: 149em;
+    }
+}
+@media (max-width: 440px) {
+    .outerMap {
+        margin-top: 153em;
+    }
+}
+@media (max-width: 416px) {
+    .outerMap {
+        margin-top: 160em;
+    }
 }
